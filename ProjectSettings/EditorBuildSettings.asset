@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Hanof/MainMenu.unity
+    guid: fd2c85074a6ff194480399f6f9cd61f3
+  - enabled: 1
+    path: Assets/Scenes/Hanof/Prototype.unity
+    guid: 17bb5aeec246b5b4c8508a3da145237c
   - enabled: 1
     path: Assets/Scenes/Level1 1.unity
     guid: f8c200c7c775b4b719f699074ad28f29
