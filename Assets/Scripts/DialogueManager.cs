@@ -8,8 +8,6 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dialogueText;
     public TMP_Text continueText;
 
-    public AbuFanousFollow abuFanousFollow;
-
     [HideInInspector] public bool isDialogueActive = false;
 
     private string[] speakers;
@@ -49,12 +47,6 @@ public class DialogueManager : MonoBehaviour
         {
             dialoguePanel.SetActive(false);
             isDialogueActive = false;
-
-            if (abuFanousFollow != null)
-            {
-                abuFanousFollow.StartFollowing();
-            }
-
             return;
         }
 
